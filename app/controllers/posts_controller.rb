@@ -1,3 +1,10 @@
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+
+
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update]
 

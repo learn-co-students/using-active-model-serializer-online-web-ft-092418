@@ -1,3 +1,10 @@
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+### NOTICE - THIS LAB HAD AN ISSUE SO TO REVIEW THIS CONCEPT LOOK AT using-to-json-ruby
+
+
+
 class AuthorsController < ApplicationController
   def show
     @author = Author.find(params[:id])
