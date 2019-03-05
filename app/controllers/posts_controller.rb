@@ -7,13 +7,10 @@ class PostsController < ApplicationController
   end
 
   def show
-    @post = Post.find(params[:id])
-      #BEFORE using a serializer:
-      render json: @post.to_json(only: [:title, :description, :id],
-                                include: [author: { only: [:name]}])
-       # AFTER USING OUR SERIALIZER
-      # render json: @post, status: 200
+    # @post = Post.find(params[:id])
+    render json: @post, status: 200
   end
+
 
   def new
     @post = Post.new
@@ -27,6 +24,7 @@ class PostsController < ApplicationController
 
   def edit
   end
+  
 
   def update
     @post.update(post_params)
@@ -44,3 +42,5 @@ private
     params.require(:post).permit(:title, :description)
   end
 end
+
+
